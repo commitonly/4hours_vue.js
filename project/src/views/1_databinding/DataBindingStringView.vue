@@ -9,7 +9,7 @@
 export default {
   data() {
     return {
-      userName: 'Taemin Kim',
+      userName: 'Taemin Kim!',
       message: 'Welcome Vue Js!!',
       arr: [],
       ob: {}
