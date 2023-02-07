@@ -77,7 +77,8 @@ export default {
   unmounted() {},
 
   methods: {
-    changeCity() {
+    changeCity(e) {
+      console.log(e.target.value)
       this.selectedDongList = this.dongList.filter( (dong) => dong.cityCode === this.selectedCity)
     }
   }
