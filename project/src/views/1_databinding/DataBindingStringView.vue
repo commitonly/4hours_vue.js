@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       userName: 'Taemin Kim',
-      message: 'Welcome Vue Js!',
+      message: 'Welcome Vue Js!!',
       arr: [],
       ob: {}
     }
